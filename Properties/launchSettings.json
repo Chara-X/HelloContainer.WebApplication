@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "HelloContainer.WebApplication": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "WeatherForecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5105"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/weatherforecast",
+      "publishAllPorts": true
+    }
+  }
+}
